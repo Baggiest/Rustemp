@@ -8,7 +8,7 @@ fn main() -> std::io::Result<()> {
 
     // clear and print a message before starting the loop
     print!("\x1B[2J\x1B[1;1H");
-    // println!("Monitoring CPU temperatures (Press Ctrl+C to exit)...");
+    println!("Monitoring CPU temperatures (Press Ctrl+C to exit)...");
     
     loop {
         let mut core0 = File::open("/sys/class/thermal/thermal_zone0/temp")?;
