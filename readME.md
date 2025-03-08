@@ -23,8 +23,8 @@ This lightweight application continuously reads temperature data from thermal se
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/cpu-temp-monitor.git
-   cd cpu-temp-monitor
+   git clone https://github.com/baggiest/rustemp.git
+   cd rustemp
    ```
 
 2. Build the application:
@@ -34,7 +34,7 @@ This lightweight application continuously reads temperature data from thermal se
 
 3. Run the program:
    ```
-   ./target/release/cpu-temp-monitor
+   ./target/release/rustemp-cpu
    ```
 
 ## Usage
